@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+  p{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .wrap{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header{
+    height: 100px;
+  }
+  .header .box-tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 36px;
+  }
+  
+  .footer{
+    width: 100%;
+    height: 56px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .footer .inner{
+    display: flex;
+    justify-content: center;
+  }
+  .footer .inner p{
+    margin-top: 20px;
+    color: #999;
+  }
+  
+  
+  .main{
+    height: 100%;
+  }
+  .main .inner{
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .main .inner + .inner {
+    border-top: 1px solid #ccc;
+  }
+  
+  .list-interest{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .list-interest li{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    list-style: none;
+  }
+  .list-interest li + li{
+    margin-left: 10px;
+  }
+  .list-interest li .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    transition: all 0.2s linear;
+    opacity: 0;
+  }
+  .list-interest li:hover .content{
+    opacity: 1;
+  }
+  
+  .list-experience .item{
+    display: flex;
+  }
+  .list-experience .item + .item{
+    margin-top: 12px;
+  }
+  .list-experience .item .title{
+    flex-basis: 100px;
+    padding-top: 12px;
+    text-align: right;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  .list-experience .inner-list{
+    display: flex;
+  }
+  .list-experience .inner-list li{
+    width: 160px;
+    height: 200px;
+  }
+  .list-experience .inner-list li + li{
+    margin-left: 12px;
+  }
+  
+  
+  .sns{
+    display: flex;
+    justify-content: center;
+  }
+  .sns a{ 
+    font-size: 40px;
+  }
+  .sns a + a {
+    margin-left: 20px;
+  }
